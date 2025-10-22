@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72e8d2fb-feb0-46ec-a1be-522373943857">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2c628877-517b-4618-af0f-32873653a532"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="383b2f33-2c11-44c4-95cc-f42039d0c342"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9cff7bbb-fbd4-4bbf-9d07-79efed3b1c15"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3fd4d26c-667e-46d2-8a72-db6e4a4b2358"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a6f2901e-c3e7-47f3-930f-95aebda073bd"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1e611d64-2064-4960-9db3-8968d6cea8e4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="8a61bf37-c5bc-4f14-bc15-12e99cf71a63"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="b67a73d3-1292-4f3d-b768-2270c5493350">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Подсистема1</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ФоновыеЗаданияТест</commonModules>
+  <scheduledJobs>ScheduledJob.ВыгрузкаДанных</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ЗагрузкаДанных</scheduledJobs>
+  <constants>Constant.Каталог</constants>
+  <catalogs>Catalog.Справочник1</catalogs>
+  <catalogs>Catalog.Справочник2</catalogs>
+  <catalogs>Catalog.КлассификаторБанков</catalogs>
+  <dataProcessors>DataProcessor.ВыгрузкаЗагрузкаДанных</dataProcessors>
+  <dataProcessors>DataProcessor.ПроверкаПрименимостиРасширений</dataProcessors>
+</mdclass:Configuration>

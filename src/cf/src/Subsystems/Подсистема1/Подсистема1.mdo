@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17241721-d1a9-4e61-9c4e-6b64bc52aff7">
+  <name>Подсистема1</name>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Справочник1</content>
+  <content>Catalog.Справочник2</content>
+  <content>Constant.Каталог</content>
+  <content>ScheduledJob.ВыгрузкаДанных</content>
+  <content>ScheduledJob.ЗагрузкаДанных</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанных</content>
+  <content>DataProcessor.ПроверкаПрименимостиРасширений</content>
+</mdclass:Subsystem>

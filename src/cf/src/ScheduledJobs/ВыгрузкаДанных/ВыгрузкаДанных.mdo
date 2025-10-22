@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7a13023-b6e9-4c5b-a603-635ca6b4d7b9">
+  <name>ВыгрузкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка данных</value>
+  </synonym>
+  <methodName>CommonModule.ФоновыеЗаданияТест.ВыгрузитьДанные</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad5acef-6ba9-4bae-9997-c8b74a3e2c3e">
+  <producedTypes>
+    <objectType typeId="dca83597-6ee6-413c-9eaf-36f683b8a314" valueTypeId="8120d7df-68b3-468a-9f9b-0bc7e4270cf3"/>
+    <refType typeId="1c715d82-e9cf-4de9-9025-d63a17b5348c" valueTypeId="4e29995d-239d-4ff1-ab10-34fe8f706d64"/>
+    <selectionType typeId="71c4f5c0-f208-4238-8d72-9a8c7a67809d" valueTypeId="29b9dd49-13f6-46e5-ab38-822ce89bddf4"/>
+    <listType typeId="68c983b5-2f27-461e-9a68-6ecd8fb2e896" valueTypeId="38be8f68-bcc1-4e5f-b34e-d8af0f4230e2"/>
+    <managerType typeId="56f112e1-1aa9-4497-87fe-441116254b8d" valueTypeId="77504ad9-6293-450e-bc3e-6897e55e735a"/>
+  </producedTypes>
+  <name>Справочник2</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Справочник2.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Справочник2.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="75a7d37c-f4e4-40cb-af4f-dfd94fae56b7">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf801de3-c345-4aad-9499-cb8f48e02889">
+    <name>ГуидСпр1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гуид спр1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
